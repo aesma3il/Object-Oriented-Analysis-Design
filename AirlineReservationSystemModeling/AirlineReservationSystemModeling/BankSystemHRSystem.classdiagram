@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="27fef2c1-6add-4db2-9620-13f118766be2" name="BankSystemHRSystem" linkedPackageId="dc057f8b-a238-4c26-83cf-ffd457996fd2" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="345a6756-54e1-481d-aad0-7aa1035ea7f0">
+      <profileInstance Id="00ae7661-92e4-4701-ba80-013a1d2ca89e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b20b4ddb-b7b4-44b0-a41e-e4f939e5c9b0">
+      <profileInstance Id="f8a7d886-7d79-48dd-99ae-db6c178474b3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="258ce3b1-cfc5-415f-a9db-f1efb430d274" name="Country" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="800dfdeb-43da-4dca-8a7f-f2c06793f1c7" />
+        <ownedAttributesInternal>
+          <property Id="16887f05-5420-4da0-a8d7-f70776ee30e8" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="38fcce0e-f415-4707-894a-76d0139cbb57" />
+          </property>
+          <property Id="a9e418c7-604c-4bdf-985a-17cedf2c7e93" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6126f03f-e4d3-4864-914b-fc30191ccf8c" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5ca5ac77-d6db-4420-b339-82615e9b9a8a" name="Governorate" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="41c4a011-0d8d-4330-b6d1-7982613c55a7" />
+        <ownedAttributesInternal>
+          <property Id="b6c2f2fa-0217-4439-b7a2-988d0e0274f1" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="48aa1343-160d-4df4-9f4f-9b921916d01a" />
+          </property>
+          <property Id="ac551448-8303-4e89-aeb6-5c046e20b9ce" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3e662b0c-ddfc-4c32-b23e-d4a272d035c5" />
+          </property>
+          <property Id="dc62c750-cce8-4496-9273-b2754b07fdf7" name="CountryID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="64c0ae02-e26f-43d0-8db9-d650542f0351" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="03cc5cb3-79f4-48b2-82bf-dd48b64a9ca0" name="Person" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b6705c40-9f53-4bc2-89ef-f1b7cff6bbcc" />
+        <ownedAttributesInternal>
+          <property Id="8f7ddc94-36b2-4f89-9e22-768f6c8e79a7" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="44092a40-1401-4d72-81d9-76debb351dba" />
+          </property>
+          <property Id="12da9854-eeca-40d5-bd66-fff7718df8c2" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="807a59ec-e18a-4b6f-b493-fe6638254d24" />
+          </property>
+          <property Id="8b276277-676d-4bcf-99b0-25237ebf841e" name="Gender" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="625f2868-86ba-4fa6-b82e-d882cf47634f" />
+          </property>
+          <property Id="e8745c8d-96ea-49ff-b26f-53c9596257c9" name="BirthDate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ff48f5b7-43f9-4431-8edb-b913bc72e9f1" />
+          </property>
+          <property Id="017fdc20-7634-4f06-b405-9f629ac6f582" name="BirthPlace" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f0349f81-5728-4f50-80d0-8a716194c761" />
+          </property>
+          <property Id="01795af8-68d2-4e6d-9904-7a390ac29981" name="IDNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e66ea825-c947-405a-83df-d43efef3a652" />
+          </property>
+          <property Id="feaa04c7-8095-4e7a-ba94-47671eac5615" name="Nationality" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1c7fd715-37d5-4256-a07d-4afa02c0a3d6" />
+          </property>
+          <property Id="f5cc2956-32b4-4273-b937-2a1b7b35f716" name="Country" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f9e6123c-cbf1-4487-bb51-56eba88b74b4" />
+          </property>
+          <property Id="25f0ad8f-3216-493e-98b2-830daa5f2041" name="Governorate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c3d8a951-ec52-447f-bd27-301ed26e2818" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="dc057f8b-a238-4c26-83cf-ffd457996fd2" name="AirlineReservationSystemModeling">
+    <elementDefinition Id="88ad1419-83f0-4ce8-9b03-8cb1a5c9c746" />
+  </package>
+</logicalClassDesignerModel>
